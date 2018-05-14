@@ -1,0 +1,10 @@
+Je vois que ça marche bien, même avec des accents ou de la ponctuation.
+Par contre, si j'ai un problème, il est bien là.
+Ne pas faire de fautes d'orthographes non plus, ou il ne comprendra pas.
+Si l'on corrige le ou du dessus par un où, cette fois - ci, par d'erreur.
+Il faut bien pense a séparer les - d'un espace afin qu'il comprenne bien, mais il y a toujours une part d'erreur
+Passons aux conjugaisons.
+Hier, ce programme fonctionnait, et demain, il fonctionnera encore de la même façon.
+Quand je lui dis : "fais ça !" il ne comprends pas qu'il s'agit d'impératif
+mais A. n'est pas Alain
+Une abréviation n'existe qu'avec une seule lettre, apparemment
