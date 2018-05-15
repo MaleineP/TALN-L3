@@ -10,13 +10,14 @@ Technique d'apprentissage automatique :
 	-Apprentissage par renforcement : Apprentissage par des expériences de ce qu'il faut faire en != situations de façon a optimiser le gain par rapport au temps
 	-Apprentissage par transfert : apprentissage qui consiste a transférer des connaissances d'1+ source(s) a 1+ cible(s).
 
+Part of speech tagging : Il réalise l'étiquetage grammatical d'un mot/texte.
 
-http://ling.uni-konstanz.de/pages/home/schaetzle/publications/MA_Christin.pdf
 
-Problèmes d'étiquettes pour this et that :
+Problèmes :
 	<A> would you consider pizza an Italian food </A><B> (em) yes but it’s not it’s not really f= it’s typic but it’s not (em) we can eat that everyday everywhere now and . but (em) my grandma does this by herself.
-
 	Le locuteur natif (marqué <A>) pose une question sur l'entité pizza à l'apprenant (marqué <B>). Celle-ci produit une réponse dans laquelle elle fait référence plusieurs fois à cette entité , y compris avec les pro-formes this et that . Dans les deux cas, il s'agit respectivement d'usages inattendus et erronés, non pas du point de vue de leur distribution, mais du point de vue de leur valeur référentielle.
+        Le Treetagger a des pb avec des mots précédés, suivis de -, et des citations.
 
-Problème Perl
-	One of the biggest problems that arose while programming the Perl script was the difficulty that often words were tagged with the wrong part-of-speech tags. This can have come for various reasons. For one thing, the TreeTagger had problems segmenting certain words that immediately followed or preceded a dash. This was usually not separated from the word and the Tagger was thus unable to determine the correct part of speech. The same problem situation arose with quotes of all kinds. For this reason the program preprocess.pl was created, which cleans up the texts from these sources of errors. These characters were completely removed or replaced by a space. This also worked for multi-word topics, which are divided by hyphens and did not lead to new sources of error.
+http://fsajous.free.fr/tal/tt/treetagger-XML-FR.html
+wine pour interface graphique
+http://www.tal.univ-paris3.fr/cours/BAO-master/treetagger-win32/presentation-treetagger.htm#_Toc189822708
